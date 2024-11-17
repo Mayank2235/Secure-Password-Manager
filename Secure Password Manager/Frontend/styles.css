@@ -1,0 +1,146 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000005;
+  color: #EAEAEA;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Improve text readability */
+}
+
+/* Header */
+header {
+  background-color: #262628;
+  color: #FF9500;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.75rem; /* Slightly larger font for better impact */
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+}
+
+/* Main Container */
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #2C2C2E;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Form Section Titles */
+h2 {
+  font-size: 1.75rem; /* Increased font size for better readability */
+  color: #FF9500;
+  margin-bottom: 15px;
+}
+
+/* Input Fields */
+input[type="text"], input[type="password"], select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: #000009;
+  border: 1px solid #48484A;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #EAEAEA;
+  transition: border-color 0.3s, box-shadow 0.3s; /* Added box-shadow for focus */
+}
+
+input[type="text"]:focus, input[type="password"]:focus, select:focus {
+  border-color: #FF9500;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 149, 0, 0.6); /* Visual feedback when focusing */
+}
+
+/* Hover effect for input fields */
+input[type="text"]:hover, input[type="password"]:hover, select:hover {
+  border-color: #FF8200; /* Slight hover effect */
+}
+
+/* Buttons */
+button {
+  background-color: #FF9500;
+  color: #1C1C1E;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #FF8200;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(1); /* Reset transform on active click */
+}
+
+/* Form Sections */
+.form-section {
+  margin-bottom: 30px;
+}
+
+.form-section:last-child {
+  margin-bottom: 0;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+/* Error/Success Messages */
+#message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+}
+
+#message.error {
+  background-color: #ff4d4f;
+  color: #fff;
+}
+
+#message.success {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #262628;
+  color: #C7C7CC;
+  font-size: 0.85rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+      padding: 20px;
+  }
+  
+  button {
+      width: 100%;
+      margin: 10px 0;
+  }
+  
+  h2 {
+      font-size: 1.5rem; /* Smaller header size on mobile */
+  }
+}

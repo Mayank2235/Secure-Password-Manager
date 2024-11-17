@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Password Manager</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-xxxxxxxx" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Secure Password Manager</h1>
+    </header>
+
+    <main>
+      <div class="password-manager">
+        <h2>Manage Your Passwords Securely</h2>
+
+        <!-- Password Storage Form -->
+        <form id="password-form">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <div class="form-group">
+            <label for="role">User Role</label>
+            <select id="role" name="role" required>
+              <option value="user">User</option>
+              <option value="admin">Admin</option>
+            </select>
+          </div>
+          <!-- Generate Strong Password Button -->
+          <div class="form-group">
+            <button type="button" id="generatePasswordBtn">Generate Strong Password</button>
+          </div>
+          <!-- Store Password Button -->
+          <div class="form-group">
+            <button type="button" id="storePasswordBtn">Store Password</button>
+          </div>
+        </form>
+
+        <div id="message"></div>
+
+        <!-- Password Retrieval Form -->
+        <section id="password-retrieval">
+          <h3>Retrieve Your Password</h3>
+          <form id="retrieve-form">
+            <div class="form-group">
+              <label for="retrieve-username">Username</label>
+              <input type="text" id="retrieve-username" name="retrieve-username" required>
+            </div>
+            <!-- Retrieve Password Button -->
+            <div class="form-group">
+              <button type="button" id="retrievePasswordBtn">Retrieve Password</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Secure Password Manager</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
