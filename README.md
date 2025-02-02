@@ -20,3 +20,4 @@ If you encounter any issues during the installation process, refer to the Vault 
 Ensure that the config.json file is updated with the correct settings before running the web app.
 Verify that the index.html file is in the correct location and is accessible by the web app.
 AND make sure you are using Windows 
+if you are facing any issue in setting up vault check the docx file in zip folder
