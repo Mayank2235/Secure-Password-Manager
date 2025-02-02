@@ -1,4 +1,8 @@
 README.md
+## Video representation 
+
+https://www.linkedin.com/posts/mayank-bisht-35b21022a_hashicorpvault-cybersecurity-cloudcomputing-activity-7284268220595769345-u_Bk?utm_source=share&utm_medium=member_desktop&rcm=ACoAADlXCvcBYjXfiwKGeCQK3xCqbClHp7j1aN4
+
 Vault Installation Guide
 ## Prerequisites
 Extract the Vault.zip file to a directory on your system.
